@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Gentoo theme for splashutils.
 
 %description -l pl
-Motyw gentoo darkblue do splashutils.
+Motyw gentoo do splashutils.
 
 %prep
 %setup -q -c
