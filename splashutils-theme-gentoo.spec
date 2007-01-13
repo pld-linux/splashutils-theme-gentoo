@@ -4,12 +4,12 @@
 Summary:	Splashutils - gentoo theme
 Summary(pl):	Splashutils - motyw gentoo
 Name:		splashutils-theme-%{theme}
-Version:	1
+Version:	2
 Release:	1
 License:	GPL v2
 Group:		Themes
-Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-gentoo.tar.bz2
-# Source0-md5:	ea206196d3cee32007ae1e8eab5a0b10
+Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-gentoo-r%{version}.tar.bz2
+# Source0-md5:	76e9266c8d1dc20afeb443b664f5eb8c
 Requires:	splashutils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
