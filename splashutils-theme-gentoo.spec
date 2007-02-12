@@ -2,7 +2,7 @@
 %define		theme	gentoo
 
 Summary:	Splashutils - gentoo theme
-Summary(pl):	Splashutils - motyw gentoo
+Summary(pl.UTF-8):   Splashutils - motyw gentoo
 Name:		splashutils-theme-%{theme}
 Version:	2
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Gentoo theme for splashutils.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw gentoo do splashutils.
 
 %prep
