@@ -2,7 +2,7 @@
 %define		theme	gentoo
 
 Summary:	Splashutils - gentoo theme
-Summary(pl.UTF-8):   Splashutils - motyw gentoo
+Summary(pl.UTF-8):	Splashutils - motyw gentoo
 Name:		splashutils-theme-%{theme}
 Version:	2
 Release:	1
