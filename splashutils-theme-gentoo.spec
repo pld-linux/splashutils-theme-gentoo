@@ -10,6 +10,7 @@ License:	GPL v2
 Group:		Themes
 Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-gentoo-r%{version}.tar.bz2
 # Source0-md5:	76e9266c8d1dc20afeb443b664f5eb8c
+Provides:	fbsplash-theme
 Requires:	splashutils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
