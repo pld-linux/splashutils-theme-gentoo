@@ -1,6 +1,4 @@
-
 %define		theme	gentoo
-
 Summary:	Splashutils - gentoo theme
 Summary(pl.UTF-8):	Splashutils - motyw gentoo
 Name:		splashutils-theme-%{theme}
@@ -12,6 +10,7 @@ Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-
 # Source0-md5:	76e9266c8d1dc20afeb443b664f5eb8c
 Requires:	splashutils
 Provides:	fbsplash-theme
+Provides:	splash-theme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
